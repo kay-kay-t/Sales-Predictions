@@ -1,6 +1,6 @@
-In this project I'm analizing dataset and trying to make sales prediction for food items sold at various stores. The goal of this is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
+In this project I'm analyzing a dataset and trying to make sales predictions for food items sold at various stores. The goal of this is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
 
-My Project contains data cleaning and analizing, visualizations of different aspects of data and using machine learning models to see which one is doing better predictions. 
+My Project contains data cleaning and analyzing, visualizations of different aspects of data and using machine learning models to see which one is doing better predictions. 
 Data Dictionary for this dataset:
 
 ![image](https://user-images.githubusercontent.com/66798944/136724798-a5d3cfdb-b86e-44a4-9832-be368da562a6.png)
@@ -10,27 +10,27 @@ Data Dictionary for this dataset:
 1. General correlation in data, that shows what features have the most impact on sales.
 ![image](https://user-images.githubusercontent.com/66798944/136725365-b9fbd7d1-bf30-4930-b1e9-795dd5e46fc3.png)
 
- Visualization above shows that Item Max Retail Prise has high impact on Outlet Sales
+ Visualization above shows that Item Max Retail Price has high impact on Outlet Sales
 
-2. Let's see Max Retail Prise distribution to have better understanding of it
+2. Let's see Max Retail Price distribution to have better understanding of it
 ![image](https://user-images.githubusercontent.com/66798944/136725494-81020329-676c-408d-94bd-b000431b99ad.png)
 
  This histogram shows that the most amount of items priced at range of 100 to 125. The least amount is in price range between 200 and 225
 
-3. Visualization below shows which item types are selling the most and the least. That can give an idea, which items the store should try to sell more.
+3. Visualization below shows which item types are selling the most and the least. That can give an idea, which items the store should try to sell more.        
 ![image](https://user-images.githubusercontent.com/66798944/136725958-b4144a02-05bf-4fff-991c-5114f4a4d986.png)
 
- Per visualization above we see, that the most selling items are Starchy Foods, Seafood and Fruits and vegetables. Stores could consider decreasing prices on Baking Goods, Soft Drinks and Health&Hygen or run some promotions to increase those items sales.
+ Per visualization above we see that the most selling items are Starchy Foods, Seafood and Fruits and vegetables. Stores could consider decreasing prices on Baking Goods, Soft Drinks and Health&Hygiene or run some promotions to increase those items sales.
 
-4. Next visualization shows how outlet size affect sales.
+4. Next visualization shows how outlet size affects sales.
 ![image](https://user-images.githubusercontent.com/66798944/136726422-6be8583c-fab7-4dc4-89b1-c41015ec9cdd.png)
 
- Since sales are the highest at medium sizze stores, if retailer considering on openning new stores, they should take this into consederation in order to improve sales.
+ Since sales are the highest at medium size stores, if retailers are considering opening new stores, they should take this into consideration in order to improve sales.
 
-In next part of project I am using different prediction models, such as Linear regression, Decision Tree model, Bagged Tree model and Random Forest model. 
-After applieng all four of them to this dataset, I am comparing the results:
+In the next part of the project I am using different prediction models, such as Linear regression, Decision Tree model, Bagged Tree model and Random Forest model. 
+After applying all four of them to this dataset, I am comparing the results:
 
-1. Lenear Regression Model:
+1. Linear Regression Model:
 0.5660618087246838
 0.5606446946459837
 2. Decision Tree Model:
@@ -43,7 +43,7 @@ After applieng all four of them to this dataset, I am comparing the results:
 0.619882193339827
 0.6024842557552188
 
-Those numbers indicate, that Random Forest Model with max_depth of 5 can give the most accurate predictions. 
+Those numbers indicate that the Random Forest Model with max_depth of 5 can give the most accurate predictions. 
 
 Also, I'm comparing RMSE:
 
@@ -60,4 +60,5 @@ Testing RMSE: 1156.2930098370166
 Training RMSE: 431.589518411024
 Testing RMSE: 1121.1120993931045
 
-Random Forest model has second smallest error and did the best on predictions. So I would recommend using Random Forest model with max depth of 5 for this dataset.
+Random Forest model has the second smallest error and did the best on predictions. So I would recommend using Random Forest model with max depth of 5 for this dataset.
+
