@@ -31,34 +31,34 @@ In the next part of the project I am using different prediction models, such as 
 After applying all four of them to this dataset, I am comparing the results:
 
 1. Linear Regression Model:
-0.5660618087246838
-0.5606446946459837
+  * 0.5660618087246838
+  * 0.5606446946459837
 2. Decision Tree Model:
-1.0
-0.15930919901843388
+  * 1.0
+  * 0.15930919901843388
 3. Bagged Tree Model:
-0.9182102766404884
-0.5153952406542452
+  * 0.9182102766404884
+  * 0.5153952406542452
 4. Random Forest Model with max_depth of 5:
-0.619882193339827
-0.6024842557552188
+  * 0.619882193339827
+  * 0.6024842557552188
 
 Those numbers indicate that the Random Forest Model with max_depth of 5 can give the most accurate predictions. 
 
 Also, I'm comparing RMSE:
 
 1. Linear Regression Model:
-Training RMSE: 1140.2861766872174
-Testing RMSE: 1094.1780540846619
+   * Training RMSE: 1140.2861766872174
+   * Testing RMSE: 1094.1780540846619
 2. Decision Tree Model:
-Training RMSE: 0.0
-Testing RMSE: 1522.9730220775825
+   * Training RMSE: 0.0
+   * Testing RMSE: 1522.9730220775825
 3. Bagged Tree Model:
-Training RMSE: 491.9888854109978
-Testing RMSE: 1156.2930098370166
+  * Training RMSE: 491.9888854109978
+  * Testing RMSE: 1156.2930098370166
 4. Random Forest Model with max_depth of 5:
-Training RMSE: 431.589518411024
-Testing RMSE: 1121.1120993931045
+  * Training RMSE: 431.589518411024
+  * Testing RMSE: 1121.1120993931045
 
 Random Forest model has the second smallest error and did the best on predictions. So I would recommend using Random Forest model with max depth of 5 for this dataset.
 
